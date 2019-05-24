@@ -1,4 +1,4 @@
-package MsgGO
+package main
 
 type Message struct {
 	Id int64 `json:"id,omitempty" form:"id"` //消息id
