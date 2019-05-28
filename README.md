@@ -69,3 +69,45 @@ type Message struct {
 - 应用/资源服务分离
     - 系统提供动态服务
     - 文件服务迁移到oss
+    
+    
+### 产品迭代
+- v0.1
+    - 完成需求分析
+    - 完成技术选型
+    - 基础蓝图规划
+    - 技术可行性验证
+- v0.2
+    - 服务根据需求拆分 
+        - 用户服务
+            - 用户管理  
+        - 消息服务
+            - 消息接发
+            - 消息管理
+
+``` 
+├── user  用户相关服务
+│   ├── config
+│   │   ├── config.go
+│   │   └── config.json
+│   ├── container
+│   ├── dbops
+│   │   ├── conn.go
+│   │   └── defsModel
+│   ├── defs
+│   ├── main.go
+│   ├── result
+│   ├── router
+│   │   └── router.go
+│   └── utils
+└── ws 消息服务
+    ├── config
+    │   ├── config.go
+    │   └── config.json
+    ├── dbops
+    │   └── conn.go
+    ├── defs
+    ├── main.go
+    ├── router
+    └── utils
+```
