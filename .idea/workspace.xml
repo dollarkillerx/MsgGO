@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b3b8e3-8ded-4224-966e-44c5edaa8e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/defs/apidef.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/defs/errdef.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/exception/baseException.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/result/result.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/crypto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/simpleTime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/tootl_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/utils/easyutils/uuid.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/user/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/dbops/conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/dbops/conn.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/router/router.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="571">
+              <first_editor relative-caret-position="354">
                 <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
               </first_editor>
               <second_editor />
@@ -297,7 +277,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2745946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37945947" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -469,7 +449,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="571">
+          <first_editor relative-caret-position="354">
             <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
           </first_editor>
           <second_editor />

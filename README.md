@@ -84,7 +84,7 @@ type Message struct {
         - 消息服务
             - 消息接发
             - 消息管理
-
+### v0.2 目录结构
 ```     
 ├── user 用户相关服务
 │   ├── config 配置中心
@@ -124,5 +124,4 @@ type Message struct {
     ├── main.go
     ├── router 路由层
     └── utils 工具库
-
 ```
