@@ -1,6 +1,8 @@
 package model
 
-import "time"
+import (
+	"time"
+)
 
 const (
 	SEX_WOMEN = "W" // 女性
@@ -21,3 +23,4 @@ type User struct {
 	Memo      string	`xorm:"varchar(140)" form:"memo" json:"memo"` //备注
 	Createat   time.Time	`xorm:"datetime" form:"createat" json:"createat"` //统计用户增量
 }
+
