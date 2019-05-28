@@ -85,29 +85,44 @@ type Message struct {
             - 消息接发
             - 消息管理
 
-``` 
-├── user  用户相关服务
-│   ├── config
+```     
+├── user 用户相关服务
+│   ├── config 配置中心
 │   │   ├── config.go
 │   │   └── config.json
-│   ├── container
-│   ├── dbops
+│   ├── container 控制器
+│   ├── dbops db相关
 │   │   ├── conn.go
 │   │   └── defsModel
-│   ├── defs
+│   ├── defs 一些定义
+│   │   ├── apidef.go
+│   │   └── errdef.go
+│   ├── exception 异常处理
+│   │   └── baseException.go
 │   ├── main.go
-│   ├── result
-│   ├── router
+│   ├── result 返回消息
+│   │   └── result.go
+│   ├── router 路由层
 │   │   └── router.go
-│   └── utils
+│   ├── user
+│   └── utils 工具库
+│       └── easyutils
+│           ├── crypto.go
+│           ├── go.mod
+│           ├── LICENSE
+│           ├── README.md
+│           ├── simpleTime.go
+│           ├── tootl_test.go
+│           └── uuid.go
 └── ws 消息服务
-    ├── config
+    ├── config 配置中心
     │   ├── config.go
     │   └── config.json
-    ├── dbops
+    ├── dbops db相关
     │   └── conn.go
-    ├── defs
+    ├── defs 一些定义
     ├── main.go
-    ├── router
-    └── utils
+    ├── router 路由层
+    └── utils 工具库
+
 ```
