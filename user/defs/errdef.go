@@ -3,8 +3,8 @@ package defs
 import "net/http"
 
 type err struct {
-	Error string `json:"error"`
-	ErrorCode string `json:"error_code"`
+	Error string `json:"data"`
+	ErrorCode string `json:"code"`
 }
 
 type ErrorResponse struct {
@@ -17,4 +17,5 @@ var (
 	ErrorNotAuthUser = ErrorResponse{http.StatusUnauthorized,err{"User authentication failed","002"}}
 	ErrorDBError = ErrorResponse{http.StatusInternalServerError,err{"DB ops failed","003"}}
 	ErrorInternalFaults = ErrorResponse{http.StatusInternalServerError,err{"Internal service error","004"}}
+	ErrorRegister = ErrorResponse{http.StatusBadRequest,err{"Users have registered !!!","005"}}
 )

@@ -7,9 +7,10 @@ import (
 )
 
 type baseCon struct {
-	Host string `json:"host"`
-	DriverName string `json:"driverName"`
-	Dsn string `json:"dsn"`
+	Host string `json:"host"` // 开放端口
+	DriverName string `json:"driverName"` // db driver
+	Dsn string `json:"dsn"` // dsn
+	Test string `json:"test"`  // 测试开关
 }
 
 const (
