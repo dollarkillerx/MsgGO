@@ -18,4 +18,5 @@ var (
 	ErrorDBError = ErrorResponse{http.StatusInternalServerError,err{"DB ops failed","003"}}
 	ErrorInternalFaults = ErrorResponse{http.StatusInternalServerError,err{"Internal service error","004"}}
 	ErrorRegister = ErrorResponse{http.StatusBadRequest,err{"Users have registered !!!","005"}}
+	ErrorGenerateToken = ErrorResponse{http.StatusInternalServerError,err{"Generate Token error !!!","006"}}
 )

@@ -1,6 +1,7 @@
 package container
 
 import (
+	"MsgGO/user/auth"
 	"MsgGO/user/dbops"
 	"MsgGO/user/dbops/defsModel"
 	"MsgGO/user/defs"
@@ -36,6 +37,7 @@ func UserRegistered(w http.ResponseWriter,r *http.Request,p httprouter.Params)  
 		_, e := dbops.Engine.InsertOne(user)
 		if e != nil {
 			result.RequestError(w,defs.ErrorDBError)
+			return
 		}
 		result.RequestSuccess(w,defs.SuccessRegisterOK)
 		return
@@ -68,8 +70,28 @@ func UserLogin(w http.ResponseWriter,r *http.Request,p httprouter.Params) {
 	user.Password = utils.Md5Encode(password + user.Salt)
 	has, e = dbops.Engine.Get(user)
 	if has == true && e== nil {
-		result.RequestSuccess(w,defs.SuccessRegisterOK)
-		return
+		// 当用户验证成功 生成jwt
+		if s, e := auth.GenerateToken(user);e!= nil{
+			result.RequestError(w,defs.ErrorGenerateToken)
+			return
+		}else{
+			// 写入数据库
+			user.Token = s
+			_, e := dbops.Engine.Where("name = ?", user.Name).Update(user)
+			if e != nil {
+				result.RequestError(w,defs.ErrorDBError)
+				return
+			}
+			data := &map[string]interface{}{
+				"token":s,
+				"code":200,
+			}
+
+			//response := defs.SuccessResponse{HttpSC:http.StatusOK,Data:defs.Success{s,"200"}}
+			//result.RequestSuccess(w,response)
+			result.RequestInterFace(w,200,data)
+			return
+		}
 	}
 	result.RequestError(w,defs.ErrorRegister)
 }

@@ -85,7 +85,32 @@ type Message struct {
             - 消息接发
             - 消息管理
 ### v0.2 目录结构
-```     
+```    
+├── auth 验证服务
+│   ├── app_private_key.pem
+│   ├── app_public_key.pem
+│   ├── auth
+│   ├── config
+│   │   └── config.go
+│   ├── config.json
+│   ├── container
+│   │   └── auth.go
+│   ├── dbops
+│   │   └── conn.go
+│   ├── defs
+│   │   ├── auth.go
+│   │   ├── config.go
+│   │   └── result.go
+│   ├── execption
+│   │   └── execptionBase.go
+│   ├── main.go
+│   ├── result
+│   │   └── resultBase.go
+│   ├── router 
+│   │   └── router.go
+│   └── utils 
+│       ├── crypto.go
+│       └── simpleTime.go 
 ├── user 用户相关服务
 │   ├── config 配置中心
 │   │   ├── config.go

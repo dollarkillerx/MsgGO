@@ -2,16 +2,16 @@ package defs
 
 import "net/http"
 
-type success struct {
+type Success struct {
 	Data string `json:"data"`
 	Code string `json:"code"`
 }
 
 type SuccessResponse struct {
 	HttpSC int
-	Data success
+	Data Success
 }
 
 var (
-	SuccessRegisterOK = SuccessResponse{http.StatusCreated,success{"Register success","200"}}
+	SuccessRegisterOK = SuccessResponse{http.StatusCreated,Success{"Register success","200"}}
 )

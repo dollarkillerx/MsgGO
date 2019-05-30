@@ -2,5 +2,7 @@
   "host": ":8082",
   "driverName":"mysql",
   "dsn":"im:SYYGP2ZJfsssKaBB@(127.0.0.1:3306)/im?charset=utf8",
-  "test": "true"
+  "test": "true",
+  "private_key_path": "app_private_key.pem",
+  "public_key_path": "app_public_key.pem"
 }

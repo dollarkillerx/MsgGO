@@ -11,6 +11,8 @@ type baseCon struct {
 	DriverName string `json:"driverName"` // db driver
 	Dsn string `json:"dsn"` // dsn
 	Test string `json:"test"`  // 测试开关
+	PrivateKeyPath string `json:"private_key_path"` // rsa私钥path
+	PublicKeyPath string `json:"public_key_path"` // rsa公钥path
 }
 
 const (

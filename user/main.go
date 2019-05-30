@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	//auth.Rsa()
 	// 注册路由
 	router := router.RegisterRouter()
 

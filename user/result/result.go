@@ -24,3 +24,12 @@ func RequestSuccess(w http.ResponseWriter,success defs.SuccessResponse) {
 	_, e = w.Write(bytes)
 	exception.SimpleExceptionLog(e)
 }
+
+func RequestInterFace(w http.ResponseWriter,sc int,data *map[string]interface{}) {
+	w.Header().Set("Content-Type","application/json")
+	w.WriteHeader(sc)
+	bytes, e := json.Marshal(data)
+	exception.SimpleExceptionLog(e)
+	_, e = w.Write(bytes)
+	exception.SimpleExceptionLog(e)
+}
