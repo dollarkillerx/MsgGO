@@ -2,41 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b3b8e3-8ded-4224-966e-44c5edaa8e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth/app_private_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/app_public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/container/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/dbops/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/defs/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/defs/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/defs/result.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/execption/execptionBase.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/result/resultBase.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/utils/crypto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/utils/simpleTime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/auth/app_public_key.pem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/auth/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/auth/token.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/auth/token_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/defs/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/test/test_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README/userserver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/container/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/router/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/datasource/mysql_conn/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/defs/request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/response/resp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/crypto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/session.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/tootl_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/utils/uuid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/router/register_router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws/container/ws.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/app_private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/app_public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/container/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/dbops/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/defs/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/defs/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/defs/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/execption/execptionBase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/result/resultBase.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/router/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/utils/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/utils/simpleTime.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/user/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/container/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/container/container.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/defs/apidef.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/defs/apidef.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/defs/errdef.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/defs/errdef.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/exception/baseException.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/exception/baseException.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/app_private_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/app_public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/auth/app_public_key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/auth/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/auth/token.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/auth/token_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/container/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dbops/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/dbops/defsModel/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/defs/apidef.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/defs/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/defs/errdef.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/exception/baseException.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/result/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/result/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/test/test1.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/user" beforeDir="false" afterPath="$PROJECT_DIR$/user/user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/utils/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/utils/crypto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/result/result.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/user/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/test/test_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils/crypto.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils/simpleTime.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils/simpleTime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils/strFilter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils/tootl_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/utils/uuid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/dbops/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/ws/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,68 +82,136 @@
     <option name="myElementSize" value="228" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/auth/token.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="321">
-                <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/router/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="e#89#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auth/container/auth.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/test/test_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/utils/crypto.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="839">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.59353507">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/main.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#96#149#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/router/register.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                  <folding>
+                    <element signature="e#98#159#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/datasource/mysql_conn/mysql.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="661">
+                  <caret line="30" selection-start-line="30" selection-end-line="30" />
+                  <folding>
+                    <element signature="e#102#162#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/config/config.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="546">
+                  <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#98#141#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/config.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92">
+                  <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/container/app.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="529">
+                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#101#177#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/defs/request.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="546">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <element signature="e#96#146#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/response/resp.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="184">
+                  <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/common/config/config.go">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="529">
+                  <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#98#141#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,6 +220,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/ws</dir>
+    </dirStrings>
+  </component>
   <component name="GOROOT" path="/opt/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,29 +232,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learning.md" />
-        <option value="$PROJECT_DIR$/defs.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/model/user.go" />
-        <option value="$PROJECT_DIR$/ws/config/config.go" />
-        <option value="$PROJECT_DIR$/ws/main.go" />
-        <option value="$PROJECT_DIR$/ws/dbops/conn.go" />
-        <option value="$PROJECT_DIR$/user/defs/err.go" />
-        <option value="$PROJECT_DIR$/user/defs/api.go" />
-        <option value="$PROJECT_DIR$/user/container/user.go" />
-        <option value="$PROJECT_DIR$/user/config/config.json" />
-        <option value="$PROJECT_DIR$/user/dbops/defsModel/user.go" />
-        <option value="$PROJECT_DIR$/user/dbops/conn.go" />
         <option value="$PROJECT_DIR$/user/utils/easyutils/crypto.go" />
         <option value="$PROJECT_DIR$/user/utils/easyutils/cc.go" />
         <option value="$PROJECT_DIR$/user/exception/11.go" />
-        <option value="$PROJECT_DIR$/user/router/router.go" />
         <option value="$PROJECT_DIR$/user/container/content_test.go" />
         <option value="$PROJECT_DIR$/user/utils/strFilter.go" />
         <option value="$PROJECT_DIR$/user/test/test1.go" />
         <option value="$PROJECT_DIR$/user/utils/uuid.go" />
         <option value="$PROJECT_DIR$/user/auth/init.go" />
-        <option value="$PROJECT_DIR$/user/main.go" />
         <option value="$PROJECT_DIR$/user/config/config.go" />
         <option value="$PROJECT_DIR$/user/config.json" />
         <option value="$PROJECT_DIR$/user/defs/auth.go" />
@@ -171,23 +263,40 @@
         <option value="$PROJECT_DIR$/auth/dbops/conn.go" />
         <option value="$PROJECT_DIR$/auth/defs/auth.go" />
         <option value="$PROJECT_DIR$/user/auth/token.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/auth/container/auth.go" />
+        <option value="$PROJECT_DIR$/backend/main.go" />
+        <option value="$PROJECT_DIR$/user/main.go" />
+        <option value="$PROJECT_DIR$/user/router/ROUTER.go" />
+        <option value="$PROJECT_DIR$/user/router/router.go" />
+        <option value="$PROJECT_DIR$/user/router/register_router.go" />
+        <option value="$PROJECT_DIR$/ws/main.go" />
+        <option value="$PROJECT_DIR$/ws/container/ws.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/TEST/main.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/main.sql" />
+        <option value="$PROJECT_DIR$/app/router/register.go" />
+        <option value="$PROJECT_DIR$/app/config.yml" />
+        <option value="$PROJECT_DIR$/common/config/config.go" />
+        <option value="$PROJECT_DIR$/common/datasource/mysql_conn/mysql.go" />
+        <option value="$PROJECT_DIR$/app/main.go" />
+        <option value="$PROJECT_DIR$/common/defs/request.go" />
+        <option value="$PROJECT_DIR$/common/response/resp.go" />
+        <option value="$PROJECT_DIR$/app/container/app.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1076" />
-    <option name="y" value="81" />
-    <option name="width" value="1382" />
-    <option name="height" value="999" />
+    <option name="x" value="522" />
+    <option name="y" value="50" />
+    <option name="width" value="1730" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,43 +307,42 @@
             <path>
               <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
               <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="dbops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="defs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="execption" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="datasource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MsgGO" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MsgGO" type="b2602c69:ProjectViewProjectNode" />
@@ -244,6 +352,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,23 +365,24 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/auth/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Secondary-Web-Site" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/auth/defs" />
       <recent name="$PROJECT_DIR$/user" />
       <recent name="$PROJECT_DIR$/user/utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/utils" />
+      <recent name="$PROJECT_DIR$/README" />
       <recent name="$PROJECT_DIR$/auth/utils" />
       <recent name="$PROJECT_DIR$/auth" />
       <recent name="$PROJECT_DIR$/auth/defs" />
-      <recent name="$PROJECT_DIR$/user/auth" />
-      <recent name="$PROJECT_DIR$/user/utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="MsgGO" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="MsgGO" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -298,11 +408,30 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build TestingSpeed.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="MsgGO" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="MsgGO" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="MsgGO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/auth/TestingSpeed.go" />
+      <filePath value="$PROJECT_DIR$/TEST/main.go" />
+      <package value="MsgGO" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="MsgGO" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/app/main.go" />
       <package value="MsgGO" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -314,17 +443,6 @@
       <filePath value="$PROJECT_DIR$/auth/main.go" />
       <package value="MsgGO" />
       <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestEx in MsgGO/user/test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="MsgGO" />
-      <working_directory value="$PROJECT_DIR$/user/test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="MsgGO/user/test" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestEx$" />
       <method v="2" />
     </configuration>
     <configuration name="TestGenerateToken in MsgGO/user/auth" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -351,11 +469,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestGenerateToken in MsgGO/user/auth" />
         <item itemvalue="Go Test.TestRSA in MsgGO/user/test" />
-        <item itemvalue="Go Build.go build TestingSpeed.go" />
-        <item itemvalue="Go Test.TestEx in MsgGO/user/test" />
       </list>
     </recent_temporary>
   </component>
@@ -392,15 +510,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16773504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22329059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26948053" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3444564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -408,7 +526,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.15692641" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18083961" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,6 +534,28 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.1784188" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16559829" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27233586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29784825" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.1784188" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -431,116 +571,7 @@
     <SUITE FILE_PATH="coverage/MsgGO$TestRSA_in_MsgGO_user_test.out" NAME="TestRSA in MsgGO/user/test Coverage Results" MODIFIED="1559113968088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/utils/easyutils/crypto.go" />
-    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/go-xorm/xorm@v0.7.1/session_get.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/exception/11.go" />
-    <entry file="file:///opt/go/src/net/http/header.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1257">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/container/content_test.go" />
-    <entry file="file:///opt/go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="211" column="5" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/utils/uuid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/utils/strFilter.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/dbops/defsModel/user.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/test/test1.go" />
-    <entry file="file://$PROJECT_DIR$/user/auth/init.go" />
-    <entry file="file://$PROJECT_DIR$/user/utils/simpleTime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/exception/baseException.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/go/src/os/exec/exec.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="350" column="14" selection-start-line="350" selection-start-column="14" selection-end-line="350" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/TestingSpeed.go" />
-    <entry file="file://$PROJECT_DIR$/user/dbops/conn.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/auth/token_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#87#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/auth/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/auth/config.json" />
     <entry file="file:///opt/go/src/encoding/pem/pem.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="694">
@@ -555,99 +586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/container/container.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/defs/auth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/defs/apidef.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/defs/errdef.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/router/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-          <folding>
-            <element signature="e#16#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#16#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#87#130#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/dbops/conn.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/execption/execptionBase.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/result/result.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/defs/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/container/container.go" />
+    <entry file="file://$PROJECT_DIR$/user/defs/auth.go" />
+    <entry file="file://$PROJECT_DIR$/user/defs/apidef.go" />
+    <entry file="file://$PROJECT_DIR$/user/defs/errdef.go" />
+    <entry file="file://$PROJECT_DIR$/user/config/config.go" />
+    <entry file="file://$PROJECT_DIR$/auth/main.go" />
+    <entry file="file://$PROJECT_DIR$/auth/dbops/conn.go" />
+    <entry file="file://$PROJECT_DIR$/auth/execption/execptionBase.go" />
+    <entry file="file://$PROJECT_DIR$/auth/config.json" />
+    <entry file="file://$PROJECT_DIR$/user/result/result.go" />
+    <entry file="file://$PROJECT_DIR$/auth/defs/config.go" />
     <entry file="file://$PROJECT_DIR$/go.sum">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -658,20 +607,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/test/test_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/utils/crypto.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="839">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/test/test_test.go" />
+    <entry file="file://$PROJECT_DIR$/user/utils/crypto.go" />
     <entry file="file:///opt/go/src/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -686,89 +623,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/app_private_key.pem">
+    <entry file="file://$PROJECT_DIR$/auth/app_private_key.pem" />
+    <entry file="file://$PROJECT_DIR$/auth/utils/crypto.go" />
+    <entry file="file://$PROJECT_DIR$/auth/utils/simpleTime.go" />
+    <entry file="file://$PROJECT_DIR$/auth/config/config.go" />
+    <entry file="file://$PROJECT_DIR$/auth/defs/auth.go" />
+    <entry file="file://$PROJECT_DIR$/auth/defs/result.go" />
+    <entry file="file://$PROJECT_DIR$/auth/result/resultBase.go" />
+    <entry file="file://$PROJECT_DIR$/user/auth/token.go" />
+    <entry file="file://$PROJECT_DIR$/auth/router/router.go" />
+    <entry file="file://$PROJECT_DIR$/auth/container/auth.go" />
+    <entry file="file://$PROJECT_DIR$/backend/main.go" />
+    <entry file="file://$PROJECT_DIR$/user/router/ROUTER.go" />
+    <entry file="file://$PROJECT_DIR$/user/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/utils/crypto.go">
+    <entry file="file://$PROJECT_DIR$/user/router/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="38" column="1" selection-start-line="41" selection-end-line="42" />
+        <state relative-caret-position="253">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/utils/simpleTime.go">
+    <entry file="file://$USER_HOME$/GOPATH/pkg/mod/github.com/gin-gonic/gin@v1.4.0/gin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="2553">
+          <caret line="121" column="5" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/config/config.go">
+    <entry file="file://$PROJECT_DIR$/user/router/register_router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="e#89#165#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/defs/auth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/defs/result.go">
+    <entry file="file://$PROJECT_DIR$/ws/container/ws.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="18" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/result/resultBase.go">
+    <entry file="file://$PROJECT_DIR$/ws/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/auth/token.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="184">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+          <first_editor relative-caret-position="462">
+            <caret line="97" column="12" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/router/router.go">
+    <entry file="file://$PROJECT_DIR$/TEST/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="579">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/datasource/mysql_conn/mysql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#89#162#0" expanded="true" />
+            <element signature="e#102#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/container/auth.go">
+    <entry file="file://$PROJECT_DIR$/common/config/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="546">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#98#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/utils/crypto.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="177" column="14" lean-forward="true" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#96#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/router/register.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#98#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/response/resp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/defs/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#96#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/container/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#101#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

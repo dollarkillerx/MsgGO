@@ -1,17 +1,11 @@
+/**
+* Created by GoLand
+* User: dollarkiller
+* Date: 19-6-23
+* Time: 上午10:40
+* */
 package main
 
-import (
-	"MsgGO/user/config"
-	"MsgGO/user/exception"
-	"MsgGO/user/router"
-	"net/http"
-)
-
 func main() {
-	//auth.Rsa()
-	// 注册路由
-	router := router.RegisterRouter()
 
-	err := http.ListenAndServe(config.BaseConfig.Host, router)
-	exception.SimpleException(err)
 }

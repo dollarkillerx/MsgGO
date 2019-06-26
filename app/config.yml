@@ -1,0 +1,5 @@
+app:
+  host: ":9001"
+
+mysql:
+  dsn: "im:SPTdEEB5ihZXcYR6@(127.0.0.1:3306)/im?charset=utf8"

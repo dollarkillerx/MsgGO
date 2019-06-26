@@ -84,69 +84,16 @@ type Message struct {
         - 消息服务
             - 消息接发
             - 消息管理
-### v0.2 目录结构
-```    
-├── auth 验证服务
-│   ├── app_private_key.pem
-│   ├── app_public_key.pem
-│   ├── auth
-│   ├── config
-│   │   └── config.go
-│   ├── config.json
-│   ├── container
-│   │   └── auth.go
-│   ├── dbops
-│   │   └── conn.go
-│   ├── defs
-│   │   ├── auth.go
-│   │   ├── config.go
-│   │   └── result.go
-│   ├── execption
-│   │   └── execptionBase.go
-│   ├── main.go
-│   ├── result
-│   │   └── resultBase.go
-│   ├── router 
-│   │   └── router.go
-│   └── utils 
-│       ├── crypto.go
-│       └── simpleTime.go 
-├── user 用户相关服务
-│   ├── config 配置中心
-│   │   ├── config.go
-│   │   └── config.json
-│   ├── container 控制器
-│   ├── dbops db相关
-│   │   ├── conn.go
-│   │   └── defsModel
-│   ├── defs 一些定义
-│   │   ├── apidef.go
-│   │   └── errdef.go
-│   ├── exception 异常处理
-│   │   └── baseException.go
-│   ├── main.go
-│   ├── result 返回消息
-│   │   └── result.go
-│   ├── router 路由层
-│   │   └── router.go
-│   ├── user
-│   └── utils 工具库
-│       └── easyutils
-│           ├── crypto.go
-│           ├── go.mod
-│           ├── LICENSE
-│           ├── README.md
-│           ├── simpleTime.go
-│           ├── tootl_test.go
-│           └── uuid.go
-└── ws 消息服务
-    ├── config 配置中心
-    │   ├── config.go
-    │   └── config.json
-    ├── dbops db相关
-    │   └── conn.go
-    ├── defs 一些定义
-    ├── main.go
-    ├── router 路由层
-    └── utils 工具库
-```
+- v0.3 重构(参考网易IM系统)
+    - 重新梳理业务结构 (把业务剔除,主要成为通讯)
+
+### v0.3版本
+![](./README/webdoc_im_gs_nim_func.png)
+
+### 用户系统集成
+![](./README/userserver.png)
+
+### 机密
+- App Key 
+- App Secret
+

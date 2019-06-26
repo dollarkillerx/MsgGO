@@ -1,0 +1,12 @@
+# APP应用表
+CREATE TABLE `msg_app`(
+    `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `name` VARCHAR(255) NOT NULL DEFAULT "" COMMENT "应用名称",
+    `app_key` CHAR(32) NOT NULL DEFAULT "" COMMENT "应用标识符",
+    `app_secret` VARCHAR (300) NOT NULL DEFAULT "" COMMENT "应用公钥",
+    `app_private` VARCHAR (900) NOT NULL DEFAULT "" COMMENT "应用私钥",
+    `comment` VARCHAR(255) NOT NULL DEFAULT "" COMMENT "注释",
+    PRIMARY KEY (`id`),
+    UNIQUE KEY `app_key`(`app_key`)
+)ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=UTF8 COMMENT "应用表";
+
